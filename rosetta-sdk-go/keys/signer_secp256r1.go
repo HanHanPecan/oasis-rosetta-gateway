@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/asserter"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 // SignerSecp256r1 is initialized from a keypair

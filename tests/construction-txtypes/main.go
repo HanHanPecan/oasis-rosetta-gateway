@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 	"github.com/oasisprotocol/oasis-core/go/common/cbor"
 	"github.com/oasisprotocol/oasis-core/go/common/quantity"
 	"github.com/oasisprotocol/oasis-core/go/consensus/api/transaction"
 	"github.com/oasisprotocol/oasis-core/go/staking/api"
 
-	"github.com/oasisprotocol/oasis-rosetta-gateway/services"
-	"github.com/oasisprotocol/oasis-rosetta-gateway/tests/common"
+	"oasis-rosetta-gateway/services"
+	"oasis-rosetta-gateway/tests/common"
 )
 
 const dummyNonce = 3

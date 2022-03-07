@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/coinbase/rosetta-sdk-go/server"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/server"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 
 	"github.com/oasisprotocol/oasis-core/go/common/logging"
 	staking "github.com/oasisprotocol/oasis-core/go/staking/api"
 
-	"github.com/oasisprotocol/oasis-rosetta-gateway/oasis"
+	"oasis-rosetta-gateway/oasis"
 )
 
 // SubAccountEscrow specifies the name of the escrow subaccount.

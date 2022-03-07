@@ -23,10 +23,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/coinbase/rosetta-sdk-go/parser"
-	storageErrors "github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	"oasis-rosetta-gateway/rosetta-sdk-go/parser"
+	storageErrors "oasis-rosetta-gateway/rosetta-sdk-go/storage/errors"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/utils"
 )
 
 // New creates a new Reconciler.

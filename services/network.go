@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/coinbase/rosetta-sdk-go/server"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/server"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 
 	"github.com/oasisprotocol/oasis-core/go/common/logging"
 
-	"github.com/oasisprotocol/oasis-rosetta-gateway/common"
-	"github.com/oasisprotocol/oasis-rosetta-gateway/oasis"
+	"oasis-rosetta-gateway/common"
+	"oasis-rosetta-gateway/oasis"
 )
 
 var loggerNet = logging.GetLogger("services/network")

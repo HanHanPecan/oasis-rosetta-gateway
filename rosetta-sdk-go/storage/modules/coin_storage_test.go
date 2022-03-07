@@ -24,11 +24,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	mocks "github.com/coinbase/rosetta-sdk-go/mocks/storage/modules"
-	storageErrs "github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	"oasis-rosetta-gateway/rosetta-sdk-go/asserter"
+	mocks "oasis-rosetta-gateway/rosetta-sdk-go/mocks/storage/modules"
+	storageErrs "oasis-rosetta-gateway/rosetta-sdk-go/storage/errors"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/utils"
 )
 
 var (

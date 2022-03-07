@@ -24,9 +24,9 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/client"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/asserter"
+	"oasis-rosetta-gateway/rosetta-sdk-go/client"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 const (

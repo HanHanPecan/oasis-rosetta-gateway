@@ -25,12 +25,12 @@ import (
 
 	"github.com/neilotoole/errgroup"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/parser"
-	"github.com/coinbase/rosetta-sdk-go/storage/database"
-	storageErrs "github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	"oasis-rosetta-gateway/rosetta-sdk-go/asserter"
+	"oasis-rosetta-gateway/rosetta-sdk-go/parser"
+	"oasis-rosetta-gateway/rosetta-sdk-go/storage/database"
+	storageErrs "oasis-rosetta-gateway/rosetta-sdk-go/storage/errors"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/utils"
 )
 
 var _ BlockWorker = (*BalanceStorage)(nil)

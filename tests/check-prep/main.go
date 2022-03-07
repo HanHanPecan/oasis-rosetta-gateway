@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 
 	"github.com/coinbase/rosetta-cli/configuration"
-	"github.com/coinbase/rosetta-sdk-go/storage/modules"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/storage/modules"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 
-	"github.com/oasisprotocol/oasis-rosetta-gateway/services"
-	"github.com/oasisprotocol/oasis-rosetta-gateway/tests/common"
+	"oasis-rosetta-gateway/services"
+	"oasis-rosetta-gateway/tests/common"
 )
 
 func getRosettaConfig(ni *types.NetworkIdentifier) *configuration.Configuration {

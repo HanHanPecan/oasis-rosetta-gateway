@@ -24,12 +24,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	mocks "github.com/coinbase/rosetta-sdk-go/mocks/reconciler"
-	mockDatabase "github.com/coinbase/rosetta-sdk-go/mocks/storage/database"
-	"github.com/coinbase/rosetta-sdk-go/parser"
-	storageErrors "github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	mocks "oasis-rosetta-gateway/rosetta-sdk-go/mocks/reconciler"
+	mockDatabase "oasis-rosetta-gateway/rosetta-sdk-go/mocks/storage/database"
+	"oasis-rosetta-gateway/rosetta-sdk-go/parser"
+	storageErrors "oasis-rosetta-gateway/rosetta-sdk-go/storage/errors"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/utils"
 )
 
 func TestNewReconciler(t *testing.T) {

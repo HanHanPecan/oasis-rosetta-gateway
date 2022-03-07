@@ -45,15 +45,15 @@ build  image to save disk space.
 
 <!-- markdownlint-disable line-length -->
 [official GitHub Releases]:
-  https://github.com/oasisprotocol/oasis-rosetta-gateway/releases/
+  https://oasis-rosetta-gateway/releases/
 [Change Log for 1.1.1]:
-  https://github.com/oasisprotocol/oasis-rosetta-gateway/blob/v1.1.1/CHANGELOG.md
+  https://oasis-rosetta-gateway/blob/v1.1.1/CHANGELOG.md
 [Rosetta API]: https://www.rosetta-api.org/docs/welcome.html
 [Oasis Core]: https://github.com/oasisprotocol/oasis-core
 [Oasis Node]:
   https://docs.oasis.dev/general/run-a-node/prerequisites/oasis-node
 [Oasis Rosetta Gateway]:
-  https://github.com/oasisprotocol/oasis-rosetta-gateway
+  https://oasis-rosetta-gateway
 [Rosetta Docker Deployment]:
   https://www.rosetta-api.org/docs/node_deployment.html
 [Run a Non-validator Node]:

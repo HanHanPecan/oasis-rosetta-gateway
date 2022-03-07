@@ -143,11 +143,11 @@ This command will perform sanity checks to prevent common errors.
 After those checks have passed, it will ask for confirmation before proceeding.
 
 [canonical git repository]:
-  https://github.com/oasisprotocol/oasis-rosetta-gateway
+  https://oasis-rosetta-gateway
 [Release manager workflow]: ../.github/workflows/release.yml
 [GoReleaser]: https://goreleaser.com/
 [Oasis Rosetta Gateway's releases page]:
-  https://github.com/oasisprotocol/oasis-rosetta-gateway/releases
+  https://oasis-rosetta-gateway/releases
 
 ## Preparing a Bugfix/Stable Release
 

@@ -27,8 +27,8 @@ import (
 	"github.com/DataDog/zstd"
 	msgpack "github.com/vmihailenco/msgpack/v5"
 
-	"github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/storage/errors"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 const (

@@ -17,7 +17,7 @@ ARG CORE_BRANCH=v21.3.9
 ARG CORE_GITHUB=https://github.com/oasisprotocol/oasis-core
 
 ARG GATEWAY_BRANCH=master
-ARG GATEWAY_GITHUB=https://github.com/oasisprotocol/oasis-rosetta-gateway
+ARG GATEWAY_GITHUB=https://oasis-rosetta-gateway
 
 ARG JEMALLOC_VERSION=5.2.1
 ARG JEMALLOC_CHECKSUM=34330e5ce276099e2e8950d9335db5a875689a4c6a56751ef3b1d8c537f887f6

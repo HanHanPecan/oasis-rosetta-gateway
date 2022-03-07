@@ -15,7 +15,7 @@
 package syncer
 
 import (
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 // Option is used to overwrite default values in

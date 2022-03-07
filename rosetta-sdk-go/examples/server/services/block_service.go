@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/coinbase/rosetta-sdk-go/server"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/server"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 // BlockAPIService implements the server.BlockAPIServicer interface.

@@ -5,16 +5,16 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/coinbase/rosetta-sdk-go/client"
-	"github.com/coinbase/rosetta-sdk-go/keys"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/client"
+	"oasis-rosetta-gateway/rosetta-sdk-go/keys"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 	"github.com/oasisprotocol/oasis-core/go/common/crypto/signature"
 	"github.com/oasisprotocol/oasis-core/go/common/entity"
 	genesis "github.com/oasisprotocol/oasis-core/go/genesis/api"
 	cmdGenesis "github.com/oasisprotocol/oasis-core/go/oasis-node/cmd/common/genesis"
 	"github.com/oasisprotocol/oasis-core/go/staking/api"
 
-	"github.com/oasisprotocol/oasis-rosetta-gateway/services"
+	"oasis-rosetta-gateway/services"
 )
 
 const DstAddressText = "oasis1qpkant39yhx59sagnzpc8v0sg8aerwa3jyqde3ge"

@@ -17,7 +17,7 @@ package keys
 import (
 	"errors"
 
-	utils "github.com/coinbase/rosetta-sdk-go/errors"
+	utils "oasis-rosetta-gateway/rosetta-sdk-go/errors"
 )
 
 // Named error types for Keys errors

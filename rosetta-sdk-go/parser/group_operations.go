@@ -17,8 +17,8 @@ package parser
 import (
 	"sort"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"oasis-rosetta-gateway/rosetta-sdk-go/asserter"
+	"oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 // OperationGroup is a group of related operations
