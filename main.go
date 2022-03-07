@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/server"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/asserter"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/server"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
 	"github.com/oasisprotocol/oasis-core/go/common/crypto/signature"
 	"github.com/oasisprotocol/oasis-core/go/common/logging"
 

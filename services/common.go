@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
 	staking "github.com/oasisprotocol/oasis-core/go/staking/api"
 
 	"github.com/oasisprotocol/oasis-rosetta-gateway/oasis"

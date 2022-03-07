@@ -19,7 +19,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 // AmountSign is used to represent possible signedness

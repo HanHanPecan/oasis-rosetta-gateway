@@ -22,9 +22,9 @@ import (
 
 	"github.com/neilotoole/errgroup"
 
-	"github.com/coinbase/rosetta-sdk-go/storage/database"
-	"github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/storage/database"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/storage/errors"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 var _ BlockWorker = (*BroadcastStorage)(nil)

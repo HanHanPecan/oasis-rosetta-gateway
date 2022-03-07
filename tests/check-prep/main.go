@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 
 	"github.com/coinbase/rosetta-cli/configuration"
-	"github.com/coinbase/rosetta-sdk-go/storage/modules"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/storage/modules"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
 
 	"github.com/oasisprotocol/oasis-rosetta-gateway/services"
 	"github.com/oasisprotocol/oasis-rosetta-gateway/tests/common"

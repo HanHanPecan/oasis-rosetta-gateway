@@ -23,14 +23,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/constructor/job"
-	"github.com/coinbase/rosetta-sdk-go/keys"
-	mocks "github.com/coinbase/rosetta-sdk-go/mocks/constructor/coordinator"
-	"github.com/coinbase/rosetta-sdk-go/parser"
-	"github.com/coinbase/rosetta-sdk-go/storage/database"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/asserter"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/constructor/job"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/keys"
+	mocks "github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/mocks/constructor/coordinator"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/parser"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/storage/database"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/utils"
 )
 
 const (

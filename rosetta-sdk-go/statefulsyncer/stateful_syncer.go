@@ -24,12 +24,12 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/coinbase/rosetta-sdk-go/fetcher"
-	storageErrs "github.com/coinbase/rosetta-sdk-go/storage/errors"
-	"github.com/coinbase/rosetta-sdk-go/storage/modules"
-	"github.com/coinbase/rosetta-sdk-go/syncer"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/fetcher"
+	storageErrs "github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/storage/errors"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/storage/modules"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/syncer"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/utils"
 )
 
 var _ syncer.Handler = (*StatefulSyncer)(nil)

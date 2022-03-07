@@ -15,7 +15,7 @@
 package asserter
 
 import (
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
 )
 
 // BlockEvent ensures a *types.BlockEvent

@@ -6,7 +6,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	rosettaTypes "github.com/coinbase/rosetta-sdk-go/types"
+	rosettaTypes "github.com/oasisprotocol/oasis-rosetta-gateway/rosetta-sdk-go/types"
 	ocVersion "github.com/oasisprotocol/oasis-core/go/common/version"
 )
 
